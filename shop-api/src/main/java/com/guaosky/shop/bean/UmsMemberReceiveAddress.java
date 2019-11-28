@@ -1,4 +1,4 @@
-package com.guaosky.shop.user.bean;
+package com.guaosky.shop.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;

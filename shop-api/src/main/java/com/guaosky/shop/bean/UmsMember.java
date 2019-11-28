@@ -1,4 +1,4 @@
-package com.guaosky.shop.user.bean;
+package com.guaosky.shop.bean;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

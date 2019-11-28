@@ -1,6 +1,6 @@
 package com.guaosky.shop.user.mapper;
 
-import com.guaosky.shop.user.bean.UmsMember;
+import com.guaosky.shop.bean.UmsMember;
 import org.springframework.stereotype.Repository;
 import tk.mybatis.mapper.common.Mapper;
 

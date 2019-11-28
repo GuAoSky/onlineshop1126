@@ -1,7 +1,7 @@
-package com.guaosky.shop.user.service;
+package com.guaosky.shop.service;
 
-import com.guaosky.shop.user.bean.UmsMember;
-import com.guaosky.shop.user.bean.UmsMemberReceiveAddress;
+import com.guaosky.shop.bean.UmsMember;
+import com.guaosky.shop.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

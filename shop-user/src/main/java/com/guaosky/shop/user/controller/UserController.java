@@ -1,9 +1,9 @@
 package com.guaosky.shop.user.controller;
 
 
-import com.guaosky.shop.user.bean.UmsMember;
-import com.guaosky.shop.user.bean.UmsMemberReceiveAddress;
-import com.guaosky.shop.user.service.UserService;
+import com.guaosky.shop.bean.UmsMember;
+import com.guaosky.shop.bean.UmsMemberReceiveAddress;
+import com.guaosky.shop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
