@@ -15,6 +15,7 @@
     </parent>
 
     <dependencies>
+        <!--通用工具包-->
         <dependency>
             <groupId>com.guaosky.shop</groupId>
             <artifactId>shop-common-util</artifactId>
