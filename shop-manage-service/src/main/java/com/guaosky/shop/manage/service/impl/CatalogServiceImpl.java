@@ -32,4 +32,22 @@ public class CatalogServiceImpl implements CatalogService {
         List<PmsBaseCatalog1> catalog1s = pmsBaseCatalog1Mapper.selectAll();
         return catalog1s;
     }
+
+    @Override
+    public List<PmsBaseCatalog2> getCatalog2(String catalog1Id) {
+        PmsBaseCatalog2 pmsBaseCatalog2 = new PmsBaseCatalog2();
+        pmsBaseCatalog2.setCatalog1Id(catalog1Id);
+
+        List<PmsBaseCatalog2> pmsBaseCatalog2s = pmsBaseCatalog2Mapper.select(pmsBaseCatalog2);
+        return pmsBaseCatalog2s;
+    }
+
+    @Override
+    public List<PmsBaseCatalog3> getCatalog3(String catalog2Id) {
+        PmsBaseCatalog3 pmsBaseCatalog3 = new PmsBaseCatalog3();
+        pmsBaseCatalog3.setCatalog2Id(catalog2Id);
+
+        List<PmsBaseCatalog3> catalog3s = pmsBaseCatalog3Mapper.select(pmsBaseCatalog3);
+        return catalog3s;
+    }
 }
