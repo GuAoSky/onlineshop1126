@@ -1,5 +1,6 @@
 package com.guaosky.shop.bean;
 
+import com.guaosky.shop.bean.PmsBaseAttrValue;
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Transient;

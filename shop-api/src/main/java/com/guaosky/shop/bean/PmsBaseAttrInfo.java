@@ -1,6 +1,6 @@
 package com.guaosky.shop.bean;
 
-import com.guaosky.shop.bean.PmsBaseAttrValue;
+
 
 import javax.persistence.*;
 import java.io.Serializable;
