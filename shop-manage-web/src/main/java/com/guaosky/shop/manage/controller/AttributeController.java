@@ -4,7 +4,6 @@ package com.guaosky.shop.manage.controller;
 import com.guaosky.shop.bean.PmsBaseAttrInfo;
 import com.guaosky.shop.bean.PmsBaseAttrValue;
 import com.guaosky.shop.service.AttrService;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
